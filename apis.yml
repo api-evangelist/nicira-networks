@@ -35,7 +35,7 @@ x-status: acquired
 x-acquired-by: vmware
 x-acquired-date: '2012-08-24'
 x-successor-product: VMware NSX
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
