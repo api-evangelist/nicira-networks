@@ -12,17 +12,14 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nicira-networks.png
 name: Nicira Networks
-description: 'Nicira Networks was a software-defined networking (SDN) and network
-  virtualization pioneer founded in 2007 out of research by Martin Casado, Nick McKeown,
-  and Scott Shenker on OpenFlow. Its Network Virtualization Platform (NVP) decoupled
-  virtual networks from underlying physical hardware. VMware acquired Nicira on August
-  24, 2012 for approximately $1.26 billion; the technology was folded into VMware
-  vSwitch and relaunched as VMware NSX in 2013, and VMware was itself acquired by
-  Broadcom in November 2023. Nicira no longer operates as an independent company and
-  publishes no first-party developer portal or API. Its only historical API footprint
-  is the third-party Nicira NVP plugin integrated into Apache CloudStack. Surfaced
-  in the API Evangelist network as a portfolio company of a16z and Lightspeed Venture
-  Partners.'
+description: Nicira Networks was a software-defined networking (SDN) and network virtualization pioneer founded
+  in 2007 out of research by Martin Casado, Nick McKeown, and Scott Shenker on OpenFlow. Its Network Virtualization
+  Platform (NVP) decoupled virtual networks from underlying physical hardware. VMware acquired Nicira on August
+  24, 2012 for approximately $1.26 billion; the technology was folded into VMware vSwitch and relaunched as VMware
+  NSX in 2013, and VMware was itself acquired by Broadcom in November 2023. Nicira no longer operates as an independent
+  company and publishes no first-party developer portal or API. Its only historical API footprint is the third-party
+  Nicira NVP plugin integrated into Apache CloudStack. Surfaced in the API Evangelist network as a portfolio company
+  of a16z and Lightspeed Venture Partners.
 url: https://raw.githubusercontent.com/api-evangelist/nicira-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -37,7 +34,7 @@ x-acquired-date: '2012-08-24'
 x-successor-product: VMware NSX
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-21'
 tags:
 - Company
 - Infrastructure
@@ -54,6 +51,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/vmware/
+  name: VMware
+  x-relationship: acquisition
+  x-generated-by: broadcom-family:2026-08-21
+  x-acquired: 2012
 - type: Website
   url: https://nicira.com
 - type: CompanyProfile
@@ -67,3 +70,6 @@ x-enrichment:
   status: nochange
   artifacts_added: 0
   pass: local-v1
+x-parent: vmware
+x-relationship: acquisition
+x-acquired: 2012
